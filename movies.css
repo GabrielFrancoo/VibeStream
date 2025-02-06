@@ -1,0 +1,59 @@
+#corpo {
+    background: #0b090a;
+}
+
+.nav_bar {
+    height: 4rem;
+}
+
+#search{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:1%;
+    opacity: 0.7;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px black;   
+    width: 50%;
+    padding: 15px;
+    background-color: black;
+    color: white;   
+    font-size: 20px;
+    border-color:white;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.movies {
+    display: flex;          /* Cria um layout flexível */
+    flex-wrap: wrap;        /* Permite que os itens se movam para a linha seguinte */
+    justify-content: center; /* Alinha a imagem à esquerda */
+    background: rgba(107, 107, 107, 0.041);
+    padding: 5rem;
+    margin: 0;
+    width: 100rem;
+    border-radius: 5rem;
+    margin-bottom: 2rem;
+}
+
+.movies img {
+    width: 20rem;
+    height: 25rem;
+    margin-left: 15px;    
+    transform: .2s;
+    border-radius: 5px;
+}
+
+.movies img:hover {
+    transform: scale(1.2);
+    transition: .2s;
+    box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+
+}
